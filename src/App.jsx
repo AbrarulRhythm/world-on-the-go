@@ -12,11 +12,11 @@ function App() {
   const countriesPromise = fetchCountries();
 
   return (
-    <>
+    <div className='container'>
       <Suspense fallback={<p>Country Data Loading...</p>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
-    </>
+    </div>
   )
 }
 
