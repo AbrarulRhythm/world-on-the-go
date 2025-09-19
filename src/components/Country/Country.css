@@ -11,7 +11,17 @@
     background: #2c2c2c;
 }
 
+.country-visited {
+    background: #646cff;
+}
+
+.country.country-visited:hover {
+    background: #8187fd;
+    border-color: #8187fd;
+}
+
 .country img {
+    width: 100%;
     margin-bottom: 16px;
     border-radius: 6px;
 }
